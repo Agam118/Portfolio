@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agam Bajaj</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+  </head>
+  <body>
+    <div class="nav" id="nav">
+      <div class="nav-1"><span>A</span><span>gam.</span></div>
+      <div class="nav-2" id="side">
+        <div><a href="#nav">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#projects">My Work</a></div>
+        <div><a href="#contact">Contact</a></div>
+        <i class="fa-solid fa-xmark" onclick="closed()"></i>
+      </div>
+      <i class="fa-solid fa-bars" onclick="show()"></i>
+    </div>
+    <div class="body" id="body">
+      <div class="body-2">
+        <img src="./Images/last.png" alt="" id="photo" />
+      </div>
+      <div class="body-1">
+        <div>Hey there! I'm Agam Bajaj</div>
+        <div>a <span class="name"></span></div>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <img src="./Images/my2-removebg-preview.png" alt="" />
+      <div>
+        <div class="h1">About Me</div>
+        <div class="p">
+          I'm Agam Bajaj, a versatile problem solver and adept front-end
+          developer specializing in React.js. With a robust track record of
+          building captivating projects, I thrive on translating complex
+          concepts into seamless user experiences. My expertise extends beyond
+          front-end development, encompassing a solid understanding of backend
+          technologies, ensuring holistic and high-performing solutions. Whether
+          it's crafting elegant interfaces or optimizing functionality, I'm here
+          to bring your vision to life with creativity, precision, and a passion
+          for innovation. Let's collaborate and create something extraordinary
+          together!
+        </div>
+        <div class="tab-titles">
+          <div class="tab-links active-link" onclick="openTab('skills')">
+            Skills
+          </div>
+          <div class="tab-links" onclick="openTab('experience')">
+            Experience
+          </div>
+          <div class="tab-links" onclick="openTab('education')">Education</div>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>Programming Languages</span><br />C++ , Java, JavaScript
+            </li>
+            <li>
+              <span>Frameworks and Libraries</span><br />HTML , CSS, React.js,
+              Node.js, Express.js <br />
+              Tailwind CSS, Material UI , EJS
+            </li>
+            <li>
+              <span>DataBase and Tools</span><br />MongoDb , Mysql , Git,
+              Github, Redux-toolkit, Postman
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li class="date">
+                 <div><span>Web Developer Intern</span> Cloud Counselage Pvt Ltd </br></br> Developed a Reactjs application with Redux-toolkit </br> for global state management and tailwind css for styling</br>
+                  Conducted thorough testing ( unit testing ) and debugging </br>to ensure the functionality of application</div>
+                 <div class="date-1"><span>J</span>uly 2023 - <span>S</span>eptember 2023</div>
+            </li>
+            <li class="date">
+               <div><span>Web Developer Intern</span> OctaNet Services Pvt Ltd<br><br>Developed and cover different task based on basic web developement<br>which includes landing page and different challenging tasks  </div>
+               <div class="date-1"><span>A</span>ugust 2023 - <span>O</span>ctober 2023</div>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>Graphic Era Deemed To Be University</span><br />Bachelor of
+              Technology in Computer Engineering (8.66 CGPA)
+            </li>
+            <li>
+              <span>Delhi Public School , Roorkee </span><br />Higher Secondary
+              (79.2%)
+            </li>
+            <li>
+              <span>Delhi Public School , Roorkee </span><br />Secondary (76%)
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="profiles">
+        <ul>
+          <li>
+            <a href="https://www.hackerrank.com/profile/bajajagam11"
+              ><i class="fa-brands fa-hackerrank"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://leetcode.com/agmbj118/"
+              ><img
+                src="./Images/icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png"
+                alt=""
+                id="leet"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.geeksforgeeks.org/user/bajajagam11/"
+              ><img src="./Images/geeksforgeeks.svg" alt="" id="gfg"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <div class="head">My Work</div>
+      <div class="work-list">
+        <div class="work">
+          <img src="./Images/youtube.png" alt="" />
+          <div class="layer">
+            <h3>Hello-Youtube</h3>
+            <p>
+              A youtube clone focused on user experience with real-time data
+              using youtube API and live chat functionality
+            </p>
+            <a href="https://hello-youtube.netlify.app/"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./Images/3d-Page.png" alt="" id="d" />
+          <div class="layer">
+            <h3>3D-Web-Page</h3>
+            <p>
+              A 3d-Web-Page created by utilizing the powers of scroll trigger , locomotive and GSAP
+            </p>
+            <a href="https://agam118.github.io/3D-Web-Page/"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./Images//code-editor.png" alt="" />
+          <div class="layer">
+            <h3>AGM-Code-Editor</h3>
+            <p>
+              A Code Pen Clone for running HTML , CSS , JS online via phone or
+              any device
+            </p>
+            <a href="https://agam-code-editor.netlify.app/"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work hidden">
+          <img src="./Images//Docs.png" alt="" />
+          <div class="layer">
+            <h3>AGM-DOCS</h3>
+            <p>
+              Cool DOCS created using react.js and with floating animation using framer motion 
+            </p>
+            <a href="https://agm-docs.netlify.app/"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work hidden">
+          <img src="./Images/netflix.png" alt="" />
+          <div class="layer">
+            <h3>Netfilx-Clone</h3>
+            <p>
+              A simple netflix clone with great user interface and experience
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work hidden">
+          <img src="./Images/Screenshot_20240414_035856.png" alt="" />
+          <div class="layer">
+            <h3>Sustainable-WebPage</h3>
+            <p>A Sustainable-WebPage with different effects created using three.js , GSAP , scroll-trigger and shery.js</p>
+            <a href="https://agam118.github.io/Sustainability/"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn">
+      <button class="hidden" onclick="noshow()">Show Less</button>
+    </div>
+    <div class="btn">
+      <button onclick="showMe()" id="hideme">Show More</button>
+    </div>
+    <div class="contact" id="contact">
+      <div class="contact-1">
+        <h1>Contact Me</h1>
+
+        <div class="cont">
+          <i class="fa-solid fa-envelope"></i>
+          <p>agambajaj5@gmail.com</p>
+        </div>
+
+        <div class="cont">
+          <i class="fa-solid fa-square-phone"></i>
+          <p>6398595325</p>
+        </div>
+
+        <div class="icons">
+          <a href="https://www.instagram.com/agam_bajaj/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/agam-bajaj-94b31820a/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/Agam118"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+        </div>
+
+        <div class="cv">
+          <a class="cv" href="./Agam_Bajaj_Resume.pdf" download>Download Cv</a>
+        </div>
+      </div>
+
+      <div class="contact-2">
+        <form name="submit-to-google-sheet">
+          <input type="text" placeholder="Your Name" name="Name" />
+          <input type="email" placeholder="Your Email" name="Email" />
+          <textarea placeholder="Your Message" name="Message"></textarea>
+          <button class="n-btn form-btn">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+    <script>
+      function closed() {
+        document.getElementById("side").style.display = "none";
+      }
+
+      function show() {
+        document.getElementById("side").style.display = "block";
+      }
+    </script>
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c1545aaf8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxnOUB1cZ3TahTKmR_8s65nmqhe0YIhxo18LK1RVXeEL6T2h0qdID1DJCN4DylfjJLOEw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
