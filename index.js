@@ -73,6 +73,38 @@ function noshow()
  
 }
 
+function Changeblacktheme()
+{
+    var allElements = document.querySelectorAll("*");
+      allElements.forEach(function(element) {
+        element.style.backgroundColor = "#060606"; // Change to red background color
+        element.style.color = "#fff" ; 
+      });
+
+      document.getElementById("moon").style.display = "none" ; 
+
+      document.getElementById("sun").style.display = "block" ; 
+
+      document.getElementById("sun").style.background = "none" ; 
+    
+}
+
+function Changewhitetheme()
+{
+    var allElements = document.querySelectorAll("*");
+    allElements.forEach(function(element) {
+      element.style.backgroundColor = "#fff"; // Change to red background color
+      element.style.color = "#060606" ; 
+    });
+
+    document.getElementById("moon").style.display = "block" ; 
+
+    document.getElementById("sun").style.display = "none" ; 
+
+    document.getElementById("moon").style.background = "none" ; 
+
+}
+
 
 
 
