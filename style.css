@@ -2,9 +2,9 @@
     padding: 0px ;
     margin: 0px ;
     box-sizing: border-box ;
-    background-color: #080808 ;
+    background-color: #060606  ;
     font-family: 'Poppins' , sans-serif ;
-    color: #fff ;
+    color: #fff  ;
 }
 
 html{
@@ -23,7 +23,12 @@ html{
      z-index: 10 ;
 }
 
-.nav .fa-solid{
+.nav .fa-xmark{
+   
+      display: none ;
+}
+
+.nav .fa-bars{
    
       display: none ;
 }
@@ -37,7 +42,7 @@ html{
 
 .nav-1 :nth-child(1){
      
-     color: red ;
+     color: red  !important ; 
 }
 
 
@@ -60,7 +65,7 @@ html{
       content: ' ';
       width: 0 ;
       height: 3px ;
-      background-color: #ff004f ;
+      background-color: #ff004f !important ;
       position: absolute;
       left: 0 ;
       bottom: 0px ;
@@ -97,7 +102,7 @@ html{
 
 .name{
       
-      color: red ;
+      color: red !important ;
 }
 
 
@@ -106,7 +111,7 @@ html{
       height: 500px ;
       position: fixed ;
       bottom: 0 ; 
-      opacity: 0.6 ;
+      opacity: 1 ;
 }
 
 
@@ -129,9 +134,9 @@ html{
       border-radius: 20px ;
       max-height: 600px ;
       max-width : 450px ; 
-      background-color: #262626 ;
-      opacity: 0.6 ;
-      border: 5px solid #3a3939 ; 
+      background-color: #262626 !important  ;
+      opacity: 1 ;
+      border: 5px solid #3a3939 !important  ; 
 }
 
 
@@ -144,7 +149,7 @@ html{
 
 .about div .p{
 
-      color: grey  ; 
+      color: grey  !important  ; 
       max-width: 650px ;
 }
 
@@ -185,7 +190,7 @@ html{
 
     content : ' ' ; 
     width: 0 ;
-    background-color: #ff004f;
+    background-color: #ff004f !important ;
     height: 3px ;
     position: absolute;
     left: 0 ;
@@ -205,7 +210,7 @@ html{
 
 .tab-contents span{
 
-      color : #ff004f ; 
+      color : #ff004f !important  ; 
 }
 
 .tab-contents ul li{
@@ -226,30 +231,30 @@ html{
 
 #gfg{
 
-      background-color: white ;
-      color: white ;
-      border: none ;
+      background-color: white !important  ;
       height: 34px ;
+      border: none !important ;
       cursor: pointer;
       opacity: 1 ;
 }
 
 #gfg:hover{
-      background-color: #ff004f ;
+
+      background-color: #ff004f !important ;
 }
 
 #leet{
 
-      background-color: white ;
-      height: 34px ;
-      border: none ;
+      background-color: white !important  ;
+      height: 33px ;
+      border: none !important ;
       cursor: pointer;
       opacity: 1 ;
 }
 
 #leet:hover{
 
-      background-color: #ff004f ;
+      background-color: #ff004f !important  ;
 }
 
 .profiles{
@@ -267,7 +272,7 @@ html{
 
 .fa-hackerrank:hover{
 
-      color: #ff004f ;
+      color: #ff004f !important  ;
 }
 
 .profiles ul{
@@ -328,7 +333,7 @@ html{
       width: 100% ;
       height: 100% ;
       position: absolute ;
-      background : linear-gradient(rgba(0,0,0,0.6), #ff004f) ; 
+      background : linear-gradient(rgba(0,0,0,0.6), #ff004f) !important ; 
       border-radius: 10px ;
       left: 0 ;
       bottom: 0;
@@ -343,18 +348,28 @@ html{
 }
 
 .layer h3{
-      background: none ;
+      background: none  !important ;
+      color : #fff !important ; 
 }
 
 .layer p{
 
-      background: none ;
+      background: none !important  ;
+      color: #fff !important ;
 }
 
 .layer a{
 
-      background: none ;
+      background: none !important ;
 }
+
+.layer .fa-up-right-from-square{
+
+      background: none !important  ;
+      color: #fff !important  ;
+      font-size: 20px ;
+}
+
 
 .work:hover img{
 
@@ -369,7 +384,7 @@ html{
 
 .btn button{
 
-      border: 2px solid #ff004f ;
+      border: 2px solid #ff004f !important ;
       height: 40px ;
       width: 100px ;
       cursor: pointer;
@@ -377,8 +392,8 @@ html{
 
 .btn button:hover{
 
-      background-color: #ff004f;
-      border: 2px solid gray ;
+      background-color: #ff004f !important ;
+      border: 2px solid gray !important  ;
 }
 
 .contact{
@@ -408,19 +423,21 @@ html{
       width: 40vw ;
       height: 8vh ;
       margin-bottom: 35px ;
-      background-color: #262626 ;
+      background-color: #262626 !important ;
       outline: none ;
       border-radius: 6px ;
       padding: 15px ;
+      color : #fff !important ; 
 }
 
 .contact-2 form textarea{
 
       height: 30vh ;
-      background-color: #262626 ;
+      background-color: #262626  !important ;
       outline: none ;
       border-radius: 6px ;
       padding: 15px ;
+      color : #fff !important ; 
 }
 
 .cont{
@@ -430,7 +447,7 @@ html{
 
 .cont i{
 
-      color : #ff004f
+      color : #ff004f !important ; 
 }
 
 .cont p{
@@ -448,7 +465,7 @@ html{
 .n-btn{
 
       margin-top: 40px ;
-      background-color: #ff004f ;
+      background-color: #ff004f !important  ;
       width: 150px ;
       height: 50px ;
       font-size: 20px ;
@@ -462,7 +479,7 @@ html{
 
 .cv{
 
-      background-color: #ff004f;
+      background-color: #ff004f !important ;
       width: 150px ;
       height: 40px ;
       margin-top: 30px ;
@@ -479,7 +496,7 @@ html{
 
 #msg{
 
-      color: #61b752 ;
+      color: #61b752 !important ;
       margin-top: -200px ;
       display: block ;
 }
@@ -503,17 +520,17 @@ html{
             padding-right : 20px ;
             cursor : pointer ;
             display: block  ; 
-            background: none ;
+            background: none !important ;
       }
 
       #side div{
 
-            background: none ;
+            background: none !important ;
       }
 
       #side div a{
 
-            background: none ;
+            background: none !important ;
             font-size: 20px ;
       }
 
@@ -532,7 +549,7 @@ html{
 
             height: 180vh ;
             width: 180px ;
-            background-color: red ;
+            background-color: red !important ;
             position: fixed;
             top : 0 ; 
             right  : 0 ; 
@@ -546,6 +563,18 @@ html{
 
             margin : 20px ;
             font-size: 10px ;
+      }
+
+      .nav-2 #moon{
+
+            padding-left : 35px ;
+            font-size: 25px ;
+      }
+
+      .nav-2 #sun{
+
+          padding-left: 35px ;
+          font-size: 25px ;
       }
 
       .body{
@@ -649,7 +678,7 @@ html{
 
    .btn button{
 
-      border: 2px solid #ff004f ;
+      border: 2px solid #ff004f !important ;
       height: 40px ;
       width: 100px ;
       cursor: pointer;
@@ -673,7 +702,7 @@ html{
       width: 150vw ;
       height: 100% ;
       position: absolute ;
-      background : linear-gradient(rgba(0,0,0,0.6), #ff004f) ; 
+      background : linear-gradient(rgba(0,0,0,0.6), #ff004f) !important  ; 
       border-radius: 10px ;
       left: 30px ;
       bottom: 0;
@@ -726,7 +755,7 @@ html{
 .contact-2 form textarea{
 
       height: 30vh ;
-      background-color: #262626 ;
+      background-color: #262626  !important ; 
       outline: none ;
       border-radius: 6px ;
       padding: 15px ;
@@ -739,7 +768,7 @@ html{
 
 .cont .fa-envelope , .fa-square-phone{
 
-      color : #ff004f ; 
+      color : #ff004f !important ; 
 
       margin-left: 20px ;
 }
@@ -764,6 +793,20 @@ html{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
